@@ -15,7 +15,6 @@ public class Submission {
     private String imageUrl;
     private LocalDateTime uploadedAt;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

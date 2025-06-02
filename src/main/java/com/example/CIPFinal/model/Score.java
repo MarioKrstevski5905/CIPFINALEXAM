@@ -23,7 +23,6 @@ public class Score {
     @JoinColumn(name = "submission_id", nullable = false)
     private Submission submission;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
